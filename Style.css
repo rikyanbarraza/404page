@@ -18,12 +18,12 @@ header{
     margin-left: 30px;
     margin-bottom: 100px;
     padding: 0px;
-
 }
 .mainContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 30px;
 }
 .picContainer{
     flex: 1;
@@ -31,12 +31,10 @@ header{
 .image{
     height: 100%;
     width: 100%;
-   
 }
 .TextContainer{
     flex: 1;
     flex-direction: column;
-    display: flex;
     padding: 0;
     margin: 0;
 }
@@ -51,7 +49,6 @@ header{
     color: #4F4F4F;
     padding: 0;
     margin: 0;
-    
 }
 .paragraph{
     display: flex;
@@ -65,7 +62,6 @@ header{
     width: 15em;
     padding: 0;
     margin: 0;
-
 }
 .button{
     width: 216px;
@@ -73,7 +69,56 @@ header{
     background-color: #333333;
     color: white;
     margin-bottom: 20px;
-    
+}
+@media screen and (max-width: 500px) {
+    .mainContainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .picContainer{
+        flex: 1;
+    }
+    .image{
+        height: 100%;
+        width: 100%;
+    }
+    .TextContainer{
+        flex: 1;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        display: flex;
+        font-family: 'Space Mono', monospace;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: -0.035em;
+        font-size: 40px;
+        line-height: 60px;
+        color: #4F4F4F;
+        padding: 0;
+        margin: 0;
+    }
+    .paragraph{
+        display: flex;
+        font-family: 'Space Mono', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        color: #333333;
+        padding: 0;
+        margin: 0;
+    }
+    .button{
+        width: 216px;
+        height: 68px;
+        background-color: #333333;
+        color: white;
+        margin-bottom: 20px;
+    }
 }
 .footer{
     padding: 0px;
