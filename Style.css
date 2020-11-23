@@ -3,40 +3,80 @@
 }
 body {
     font-family: "Poppins", sans-serif;
-    margin: 0px;
-    padding: 0px;
+    
 }
 header{
     font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
+    margin-left: 50px;
     line-height: 25px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #333333;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    padding: 0px;
+
 }
 .mainContainer{
-    flex: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.mainPic{
-
+.picContainer{
+    flex: 1;
+}
+.image{
+    height: 100%;
+    width: 100%;
+   
 }
 .TextContainer{
-
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 .title{
-
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    padding: 0;
+    margin: 0;
+    
 }
 .paragraph{
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    width: 15em;
+    padding: 0;
+    margin: 0;
 
 }
 .button{
-
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: white;
+    margin-bottom: 20px;
+    
 }
 .footer{
-    justify-content: center;
-    align-items: center;
     padding: 0px;
-    margin: 0px;
+    margin-top: 50px;
+    text-align: center;
 }
