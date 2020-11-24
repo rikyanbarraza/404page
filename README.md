@@ -36,8 +36,7 @@
 
 ## Overview
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/WRBXnWV" data-context="false" ><a href="//imgur.com/a/WRBXnWV"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+https://imgur.com/a/WRBXnWV
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
